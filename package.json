@@ -1,11 +1,23 @@
 {
   "name": "m8b",
   "version": "1.0.0",
-  "packages": {
-    "": {
-      "name": "m8b",
-      "version": "1.0.0",
-      "license": "ISC"
-    }
+  "description": "A brief description of the project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "npx wrangler deploy server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abunchofapis/magic-eight-ball.git"
+  },
+  "author": "Your Name",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
