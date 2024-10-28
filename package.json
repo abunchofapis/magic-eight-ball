@@ -1,0 +1,11 @@
+{
+  "name": "m8b",
+  "version": "1.0.0",
+  "packages": {
+    "": {
+      "name": "m8b",
+      "version": "1.0.0",
+      "license": "ISC"
+    }
+  }
+}
