@@ -3,7 +3,7 @@ addEventListener('fetch', event => {
 });
 
 async function handleRequest(request) {
-  // List of Magic 8 Ball responses
+  // List of Magic 8 Ball responses 
   const responses = [
     "Yes",
     "No",
